@@ -1,7 +1,7 @@
-check50: 
-  files: &check50_files
+submit50:
+true
+submit50: 
+  files: 
     - !exclude "*"
     - !require function1.c
 
-submit50:
-  files: *check50_files
